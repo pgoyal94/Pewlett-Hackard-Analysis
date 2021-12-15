@@ -16,7 +16,7 @@ We then determined the following:
 2) The Employees Eligible for the Mentorship Program
 
 ## Results:
-Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+
 - Based on the below (retirement_titles), we can see all employees and employee information, including employee number, first name, last name, and what title(s) they have or had. This table shows us that certain employees have had numerous different titles over the course of their employement with Pewlett Hackard.
 
 <img width="495" alt="image" src="https://user-images.githubusercontent.com/92613639/146120448-62c37a5b-100c-4888-bc2b-9aeb06e0c735.png">
@@ -36,5 +36,14 @@ Results: Provide a bulleted list with four major points from the two analysis de
 
 ## Summary:
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+Q: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+A: According to 'retiring_titles," there are 90,398 roles that will be opening up soon. However, when we add the'to_date' column to the unique_titles query, we can see that this number includes individuals who retired in the past (ex: Marry Sluis left the company in 1996). This means the actual number of individuals retiring now will be lower. It would be a good idea to add a query (1) that removes already retired/terminated employees and only includes the number of current employees who are up for retirement.
+
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/92613639/146125653-9d7e9938-32e8-448a-afb1-d01ca2ef6e2c.png">
+
+By doing so, we get the following revised number (72,458 total) of current employees eligible for retirement - see below.
+
+<img width="243" alt="image" src="https://user-images.githubusercontent.com/92613639/146126130-9db0e013-dffa-437f-8f8d-63fb0f7a47c9.png">
+
+Q: Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+A: 
