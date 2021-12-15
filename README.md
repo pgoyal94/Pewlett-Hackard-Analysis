@@ -21,9 +21,17 @@ Results: Provide a bulleted list with four major points from the two analysis de
 
 <img width="495" alt="image" src="https://user-images.githubusercontent.com/92613639/146120448-62c37a5b-100c-4888-bc2b-9aeb06e0c735.png">
 
-- Based on the below (unique_titles), 
+- Based on the below (unique_titles), we are able to see only the most recent or current job title for each employee. This table as is shows a line per employee so this is useful if you want to look into a specific employee, but may not be super helpful for company-wide analysis.
 
 <img width="364" alt="image" src="https://user-images.githubusercontent.com/92613639/146120932-d1fbe8ce-848b-4967-bb5d-cce48132c8b6.png">
+
+- From the below, (retiring_titles), we are able to see the employee count by most recent or current job title for all employees. This can give us an idea of how employees are distributed among job titles. Based on the below, we can see that if a few 'Senior Engineers' were to retire, it may not be such a big deal, but if a couple 'Managers' retire, you would have no managers left.
+
+<img width="151" alt="image" src="https://user-images.githubusercontent.com/92613639/146121448-5fa418b6-efbf-4db0-a7f5-e0a4615de822.png">
+
+- The below query (mentorship_eligibility), shows us a list of all current employees who are eligible for the mentorship program based on an age criteria. This list can help you determine who can be promoted to fill some of the open positions resulting from the "Silver Tsunami."
+
+<img width="553" alt="image" src="https://user-images.githubusercontent.com/92613639/146121738-d4865173-4669-4ac5-a5a1-0db4b41e0601.png">
 
 
 ## Summary:
