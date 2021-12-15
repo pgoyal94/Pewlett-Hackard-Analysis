@@ -35,9 +35,9 @@ We then determined the following:
 
 
 ## Summary:
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 Q: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-A: According to 'retiring_titles," there are 90,398 roles that will be opening up soon. However, when we add the'to_date' column to the unique_titles query, we can see that this number includes individuals who retired in the past (ex: Marry Sluis left the company in 1996). This means the actual number of individuals retiring now will be lower. It would be a good idea to add a query (1) that removes already retired/terminated employees and only includes the number of current employees who are up for retirement.
+
+A: According to 'retiring_titles,' there are 90,398 roles that will be opening up soon. However, when we add the'to_date' column to the unique_titles query, we can see that this number includes individuals who retired in the past (ex: Marry Sluis left the company in 1996). This means the actual number of individuals retiring now will be lower. It would be a good idea to add a query (1) that removes already retired/terminated employees and only includes the number of current employees who are up for retirement.
 
 <img width="413" alt="image" src="https://user-images.githubusercontent.com/92613639/146125653-9d7e9938-32e8-448a-afb1-d01ca2ef6e2c.png">
 
@@ -46,4 +46,8 @@ By doing so, we get the following revised number (72,458 total) of current emplo
 <img width="243" alt="image" src="https://user-images.githubusercontent.com/92613639/146126130-9db0e013-dffa-437f-8f8d-63fb0f7a47c9.png">
 
 Q: Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-A: 
+
+A: According to 'mentorship_eligibility,' there are 1.549 individuals the company has deemed qualified to mentor the next generation of employees. The breakdown by department is below. Based on this data, there are not nearly enough individuals able to train the next generation of employees. I do believe, however, determining who is eligible for mentoring by age may not be the best way, and it might be more beneficial to add a query (2) that show employees tenures at the company and determines eligibility that way. A younger individual who has been at the company for 15 years is probably more capable of mentoring that an older individual who has only been at the company for a couple of years. 
+
+<img width="167" alt="image" src="https://user-images.githubusercontent.com/92613639/146126702-50f12f14-721a-47fb-87db-60f32c6206cd.png">
+
